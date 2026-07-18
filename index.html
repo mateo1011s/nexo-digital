@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Operación Nexo Digital — Centro de Mando de Redes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Rajdhani:wght@400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="grid-overlay"></div>
+
+<!-- ============ BOOT SCREEN ============ -->
+<div id="boot">
+  <div class="boot-box">
+    <p class="eyebrow">Data Center Central // canal seguro</p>
+    <h1 class="boot-title">OPERACIÓN <span>NEXO DIGITAL</span></h1>
+    <div id="boot-log"></div>
+    <div id="boot-start">
+      <button class="btn" id="btn-enter">Iniciar sesión de agente ▸</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============ HUD ============ -->
+<header id="hud" class="hidden">
+  <div class="hud-brand"><span class="dot"></span> NEXO&nbsp;DIGITAL</div>
+  <div class="hud-stats">
+    <span class="hud-agent mono">AGENTE: <b id="hud-name">—</b></span>
+    <span>NIVEL <b id="hud-level">1</b></span>
+    <span>XP <b id="hud-xp">0</b>/<span id="hud-xp-max">140</span> <span class="hud-xpwrap"><span class="hud-xpbar" id="hud-xpbar"></span></span></span>
+    <span>CRÉDITOS <b id="hud-credits">0</b></span>
+    <button class="btn ghost" id="btn-menu" style="padding:.4rem .9rem;font-size:.68rem;">MAPA DE MISIONES</button>
+  </div>
+</header>
+
+<main>
+<!-- ============ DASHBOARD ============ -->
+<section id="dashboard" class="hidden">
+
+  <div class="hero">
+    <div>
+      <p class="eyebrow">Alerta de seguridad — nivel crítico</p>
+      <h1>Restaura el <em>Nexo Digital</em> antes de que la red colapse.</h1>
+      <p class="lead">Un fallo global desconectó los servidores centrales. Como agente de la Academia, tu misión es dominar los protocolos TCP/IP, los sockets y la arquitectura cliente–servidor para reactivar la comunicación entre nodos, capa por capa.</p>
+      <div class="briefing">
+        > 7 nodos de conocimiento detectados, + 1 nodo de certificación final.<br>
+        > Completa cada misión para desbloquear créditos y XP.<br>
+        > El nodo final se desbloquea al restaurar los 7 nodos anteriores.
+      </div>
+    </div>
+    <div class="hero-visual">
+      <img src="/images/Portada.png" alt="Núcleo central de la red — Nexo Digital">
+    </div>
+  </div>
+
+  <div class="section-head">
+    <div>
+      <span class="eyebrow">Centro de mando</span>
+      <h2>Mapa de misiones</h2>
+    </div>
+    <span class="mono" style="color:var(--muted);font-size:.8rem;" id="progress-count">0/7 nodos restaurados</span>
+  </div>
+
+  <div class="topology">
+    <div class="node-grid" id="node-grid"><!-- inyectado por app.js --></div>
+  </div>
+
+</section>
+
+<!-- ============ MODULE VIEW ============ -->
+<section id="module-view" class="hidden"></section>
+</main>
+
+<footer>
+  ACADEMIA DE REDES · OPERACIÓN NEXO DIGITAL · TCP/IP · SOCKETS · CLIENTE–SERVIDOR
+</footer>
+
+<div id="toast"></div>
+
+<!-- =========================================================
+     CADA COMPAÑERO EDITA SOLO SU ARCHIVO DE NODO.
+     El orden de carga aquí abajo no cambia el orden en el
+     mapa de misiones (eso lo define el "id" dentro de cada
+     archivo de nodo).
+     ========================================================= -->
+<script src="js/nodes/node-01-tcpip.js"></script>
+<script src="js/nodes/node-02-capas.js"></script>
+<script src="js/nodes/node-03-sockets.js"></script>
+<script src="js/nodes/node-04-cliente-servidor.js"></script>
+<script src="js/nodes/node-05-servidor-tcp.js"></script>
+<script src="js/nodes/node-06-cliente-tcp.js"></script>
+<script src="js/nodes/node-07-practica-linux.js"></script>
+<script src="js/nodes/node-08-examen-final.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
