@@ -20,7 +20,10 @@ window.NODE_08 = {
     <div class="panel">
       <h3>Certificación de Agente</h3>
       <p>Has restaurado los siete nodos de la red: TCP/IP, capas del modelo, sockets, arquitectura cliente–servidor, servidor TCP, cliente TCP y la práctica en Linux. Es momento de rendir la evaluación final para certificarte como Agente de la Operación Nexo Digital.</p>
-      <a class="btn amber" href="REEMPLAZAR_CON_URL_DEL_EXAMEN" target="_blank" rel="noopener noreferrer">Rendir examen final ▸</a>
+      <h3 style="color: #fff; text-shadow: 0 0 5px #ff0033, 0 0 10px #ff0033, 0 0 20px #ff0033, 0 0 40px #ff0033;">
+        Solo tendrás un intento para rendir el examen final!!
+      </h3>
+      <a class="btn amber" href="https://mateo1011s.github.io/nexo-digital-examen/" target="_blank" rel="noopener noreferrer">Rendir examen final ▸</a>
     </div>
   `
 };
