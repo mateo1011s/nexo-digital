@@ -478,4 +478,96 @@ footer{border-top:1px solid var(--line);padding:2rem 1.6rem;text-align:center;fo
           mask-image: radial-gradient(ellipse 70% 70% at center, black 45%, transparent 90%);
   opacity: 0.9;
 }
- 
+
+/* ================= BIBLIOGRAFÍA DE LA MISIÓN ================= */
+.biblio-cta{
+  display:flex;
+  justify-content:center;
+  margin:1.4rem 0 -3.4rem;
+}
+.btn.purple{
+  border-color:var(--purple);
+  color:var(--purple);
+  background:rgba(155,123,255,.08);
+}
+.btn.purple:hover{
+  background:var(--purple);
+  color:#0c0620;
+  box-shadow:0 0 24px rgba(155,123,255,.45);
+}
+
+.biblio-modal{
+  position:fixed;
+  inset:0;
+  z-index:999;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.biblio-modal.hidden{ display:none; }
+.biblio-modal-backdrop{
+  position:absolute;
+  inset:0;
+  background:rgba(3,5,10,.75);
+  backdrop-filter:blur(2px);
+}
+.biblio-modal-box{
+  position:relative;
+  z-index:1;
+  width:min(560px, 92vw);
+  max-height:85vh;
+  overflow-y:auto;
+  background:var(--bg-panel);
+  border:1px solid var(--purple);
+  border-radius:2px;
+  padding:1.6rem 1.7rem;
+  box-shadow:0 0 50px rgba(155,123,255,.25);
+  color:var(--text);
+}
+.biblio-modal-head{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin-bottom:.3rem;
+}
+.biblio-modal-head h3{
+  margin:0;
+  color:var(--purple);
+  font-family:var(--disp);
+  font-size:1.05rem;
+  text-transform:uppercase;
+  letter-spacing:.05em;
+}
+.biblio-close{
+  background:transparent;
+  border:1px solid var(--line);
+  color:var(--text);
+  border-radius:2px;
+  width:28px;
+  height:28px;
+  cursor:pointer;
+}
+.biblio-close:hover{ border-color:var(--purple); color:var(--purple); }
+.biblio-sub{
+  color:var(--muted);
+  font-size:.85rem;
+  margin:.3rem 0 1.1rem;
+}
+.biblio-list{
+  list-style:none;
+  margin:0;
+  padding:0;
+  display:flex;
+  flex-direction:column;
+  gap:.7rem;
+}
+.biblio-item{
+  background:var(--bg-panel-2);
+  border:1px solid var(--line);
+  border-left:3px solid var(--purple);
+  border-radius:2px;
+  padding:.65rem .85rem;
+}
+.biblio-item .biblio-item-title{ font-weight:700; color:var(--text); display:block; }
+.biblio-item .biblio-item-note{ color:var(--muted); font-size:.82rem; margin-top:.2rem; }
+.biblio-item a{ color:var(--purple); font-size:.8rem; word-break:break-all; display:inline-block; margin-top:.25rem; }

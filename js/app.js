@@ -94,7 +94,22 @@ document.getElementById('btn-enter').addEventListener('click', () => {
   refreshHud();
   renderNodes();
 });
+// ============ BIBLIOGRAFÍA DE LA MISIÓN ============
+(function(){
+  const modal   = document.getElementById('biblio-modal');
+  const openBtn = document.getElementById('btn-biblio');
+  const closeBtn= document.getElementById('biblio-close');
+  const backdrop= document.getElementById('biblio-backdrop');
 
+  openBtn.addEventListener('click', () => modal.classList.remove('hidden'));
+
+  function closeModal(){ modal.classList.add('hidden'); }
+  closeBtn.addEventListener('click', closeModal);
+  backdrop.addEventListener('click', closeModal);
+  document.addEventListener('keydown', (e) => {
+    if(e.key === 'Escape' && !modal.classList.contains('hidden')) closeModal();
+  });
+})();
 /* =========================================================
    MAPA DE MISIONES
    ========================================================= */

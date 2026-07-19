@@ -65,9 +65,11 @@
   </div>
 
   <div class="topology">
-    <div class="node-grid" id="node-grid"><!-- inyectado por app.js --></div>
+    <div class="node-grid" id="node-grid"></div>
   </div>
-
+    <div class="biblio-cta">
+    <button class="btn purple" id="btn-biblio">Bibliografía de la misión ▸</button>
+  </div>
 </section>
 
 <!-- ============ MODULE VIEW ============ -->
@@ -77,7 +79,33 @@
 <footer>
   ACADEMIA DE REDES · OPERACIÓN NEXO DIGITAL · TCP/IP · SOCKETS · CLIENTE–SERVIDOR
 </footer>
+<!-- ============ MODAL: BIBLIOGRAFÍA DE LA MISIÓN ============ -->
+<div id="biblio-modal" class="biblio-modal hidden">
+  <div class="biblio-modal-backdrop" id="biblio-backdrop"></div>
+  <div class="biblio-modal-box">
+    <div class="biblio-modal-head">
+      <h3>Bibliografía de la misión</h3>
+      <button class="biblio-close" id="biblio-close" aria-label="Cerrar">✕</button>
+    </div>
+    <p class="biblio-sub">Fuentes de información y referencias usadas en esta operación.</p>
 
+    <!-- ↓↓↓ Editá aquí tus fuentes manualmente ↓↓↓ -->
+    <ul class="biblio-list">
+      <li class="biblio-item">
+        <span class="biblio-item-title">RFC 793 - Transmission Control Protocol</span>
+        <div class="biblio-item-note">Especificación oficial del protocolo TCP.</div>
+        <a href="https://www.rfc-editor.org/rfc/rfc793" target="_blank" rel="noopener">https://www.rfc-editor.org/rfc/rfc793</a>
+      </li>
+      <li class="biblio-item">
+        <span class="biblio-item-title">Kurose &amp; Ross — Redes de computadoras</span>
+        <div class="biblio-item-note">Libro base para el modelo de capas y sockets.</div>
+      </li>
+      <!-- Copiá y pegá este bloque <li> para agregar más fuentes -->
+    </ul>
+    <!-- ↑↑↑ Fin de la lista editable ↑↑↑ -->
+
+  </div>
+</div>
 <div id="toast"></div>
 
 <!-- =========================================================
