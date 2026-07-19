@@ -22,6 +22,5 @@ window.NODE_08 = {
       <p>Has restaurado los siete nodos de la red: TCP/IP, capas del modelo, sockets, arquitectura cliente–servidor, servidor TCP, cliente TCP y la práctica en Linux. Es momento de rendir la evaluación final para certificarte como Agente de la Operación Nexo Digital.</p>
       <a class="btn amber" href="REEMPLAZAR_CON_URL_DEL_EXAMEN" target="_blank" rel="noopener noreferrer">Rendir examen final ▸</a>
     </div>
-  `,
-  quiz: []
+  `
 };
