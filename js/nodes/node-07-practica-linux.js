@@ -21,14 +21,14 @@ window.NODE_07 = {
       <p>En el pasado un agente de red sufrió una anomalía similar es por eso que dejó estas 
       guías por si volvieran a ocurrir en un futuro. <br>
       Pon mucha atención en ellas y realízalas para saber si podrás devolver la conexión a los servidores de la nave y poder ser certificado como un agente del más alto rango.</p>
-      <a class="btn blue" href="REEMPLAZAR_CON_URL_DEL_EXAMEN" target="_blank" rel="noopener noreferrer">Notas del agente▸</a>
+      <a class="btn blue" href="https://colab.research.google.com/drive/1-zvjyIlSmKP9I1OZ4E6umb9i73jOw-pO" target="_blank" rel="noopener noreferrer">Notas del agente▸</a>
       </div>
     <div class="panel video-panel">
       <h3>Bitácora del agente</h3>
       <div class="video-embed">
         <iframe
-          src="https://www.youtube.com/embed/Ss_LDg-dr9o?si=qFX0UbRUFtvchEvl" 
-          title="Video explicativo — Capadss del modelo TCP/IP"
+          src="https://drive.google.com/file/d/1lRZXnOz5EjHS7-dkerGADkPMolaujpeJ/preview"
+          title="Video explicativo para la practica en Linux"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen loading="lazy"></iframe>
     </div>

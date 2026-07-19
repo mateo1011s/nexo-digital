@@ -54,7 +54,7 @@ window.NODE_04 = {
       <h3>Video explicativo</h3>
       <div class="video-embed">
         <iframe
-          src="https://www.youtube.com/embed/REEMPLAZAR_CON_ID_DEL_VIDEO"
+          src="https://www.youtube.com/embed/pXYO7obelVs?si=sv0uOFWk1RsPzwpS" 
           title="Video explicativo — Cliente-Servidor"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen loading="lazy"></iframe>

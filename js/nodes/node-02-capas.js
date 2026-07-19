@@ -36,22 +36,22 @@ window.NODE_02 = {
       <div class="panel accent-cyan">
         <h3>Capa de Aplicación</h3>
         <div class="subcard">
-          <h4>Función</h4>
+          <h3>Función</h3>
           <p>Nivel donde el usuario interactúa mediante programas como navegadores o clientes de correo.</p>
         </div>
         <div class="subcard">
-          <h4>Protocolos: HTTP, FTP, SMTP y DNS</h4>
+          <h3>Protocolos: HTTP, FTP, SMTP y DNS</h3>
           <p>Estándares usados para navegación web, transferencia de archivos, correo electrónico y resolución de nombres de dominio.</p>
         </div>
       </div>
       <div class="panel accent-purple">
         <h3>Capa de Transporte</h3>
         <div class="subcard">
-          <h4>Función</h4>
+          <h3>Función</h3>
           <p>Proporciona una conexión fiable, gestionando el flujo de datos y detectando posibles errores.</p>
         </div>
         <div class="subcard">
-          <h4>Protocolos: TCP y UDP</h4>
+          <h3>Protocolos: TCP y UDP</h3>
           <p>Los dos pilares que definen cómo se transportan los datos: uno prioriza la fiabilidad y el otro la velocidad.</p>
         </div>
       </div>
@@ -62,22 +62,22 @@ window.NODE_02 = {
       <div class="panel accent-green">
         <h3>Capa de Internet</h3>
         <div class="subcard">
-          <h4>Función</h4>
+          <h3>Función</h3>
           <p>Controla el enrutamiento para asegurar que los datos lleguen rápido y sin errores hasta su destino.</p>
         </div>
         <div class="subcard">
-          <h4>Protocolo típico: IP</h4>
+          <h3>Protocolo típico: IP</h3>
           <p>Es el encargado de direccionar los paquetes de datos a través de la red.</p>
         </div>
       </div>
       <div class="panel accent-amber">
         <h3>Capa de Acceso a la Red</h3>
         <div class="subcard">
-          <h4>Función</h4>
+          <h3>Función</h3>
           <p>Gestiona la infraestructura física local, como cables, Wi-Fi y tarjetas de red.</p>
         </div>
         <div class="subcard">
-          <h4>Conversión de señales</h4>
+          <h3>Conversión de señales</h3>
           <p>Transforma los datos digitales en señales físicas transmisibles por el medio (eléctricas, ópticas o de radio).</p>
         </div>
       </div>
