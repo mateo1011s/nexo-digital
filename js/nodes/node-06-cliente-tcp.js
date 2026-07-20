@@ -54,7 +54,7 @@ window.NODE_06 = {
       <h3>Video explicativo</h3>
       <div class="video-embed">
         <iframe
-          src="https://www.youtube.com/embed/Ss_LDg-dr9o?si=qFX0UbRUFtvchEvl" 
+          src="https://www.youtube.com/embed/7QPBzLx6aPU?si=sjE90Mr0JVYmID4o" 
           title="Video explicativo — Capas del modelo TCP/IP"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen loading="lazy"></iframe>
